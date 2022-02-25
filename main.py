@@ -21,4 +21,7 @@ async def say(ctx, *cont):
     await ctx.send(msg)
 
 
+print("hi")
+
+
 bot.run("OTQ2NDA2OTA5NDc1NDMwNDQx.YheQHg.aIzKzywJrI2LuR6r12z7SYFrNb0")
