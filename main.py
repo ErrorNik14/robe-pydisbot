@@ -1,15 +1,6 @@
 import nextcord
-import nextcord
 from nextcord.ext import commands
-import random
-import asyncio
-import itertools
-import sys
-import traceback
-from async_timeout import timeout
-from functools import partial
-import youtube_dl
-from youtube_dl import YoutubeDL
+import os
 
 intents = nextcord.Intents.default()
 intents.members = True
