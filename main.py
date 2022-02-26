@@ -21,4 +21,7 @@ async def say(ctx, *cont):
     await ctx.send(msg)
 
 
-bot.run("OTQ2NDA2OTA5NDc1NDMwNDQx.YheQHg.aIzKzywJrI2LuR6r12z7SYFrNb0")
+bot.load_extension("Cogs.Economy")
+bot.load_extension("Cogs.Fun")
+
+bot.run("OTQ2NDA2OTA5NDc1NDMwNDQx.YheQHg.7I46Wv3PoeC_gp_JVfH7yXbYtVY")
