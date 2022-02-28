@@ -29,6 +29,6 @@ async def say(ctx, *cont):
 bot.load_extension("Cogs.Economy")
 bot.load_extension("Cogs.Fun")
 
-bot.run("OTQ2NDA2OTA5NDc1NDMwNDQx.YheQHg.hjz4cP-Vdhn9IlObsRPR-N1wWJ0")
+bot.run(str(os.environ("TOKEN")))
 #Replace the Run line with the bot token if you are testing it, but
 #always change it back to bot.run(str(os.environ("TOKEN"))) before pull-requesting/commiting
