@@ -16,7 +16,6 @@ async def on_connect():
 async def bedwar(ctx):
     await ctx.send("am pro")
 
-@bot.command()
 
 @bot.command()
 async def say(ctx, *cont):
@@ -30,6 +29,6 @@ async def say(ctx, *cont):
 bot.load_extension("Cogs.Economy")
 bot.load_extension("Cogs.Fun")
 
-bot.run(str(os.environ("TOKEN")))
+bot.run("OTQ2NDA2OTA5NDc1NDMwNDQx.YheQHg.hjz4cP-Vdhn9IlObsRPR-N1wWJ0")
 #Replace the Run line with the bot token if you are testing it, but
 #always change it back to bot.run(str(os.environ("TOKEN"))) before pull-requesting/commiting
